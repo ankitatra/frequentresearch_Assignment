@@ -10,13 +10,13 @@ const registrationSchema = new mongoose.Schema(
     gender: String,
     dateOfBirth: Date,
   },
-  {
-    versionKey: false,
-    timestamps: true,
-  }
+//   {
+//     versionKey: false,
+//     timestamps: true,
+//   }
 );
 
-const Register = mongoose.model("Register", registrationSchema);
-module.exports = {
-  Register,
-};
+const Registration = mongoose.model("Data", registrationSchema);
+module.exports = 
+    Registration
+

@@ -1,9 +1,9 @@
 const express = require("express");
-
 const app = express();
 const connection = require("./config/db");
-require('dotenv').config()
+const router= require('./route/register.route');
 
+require("dotenv").config();
 
 const cors = require("cors");
 
@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
   res.send("send data");
 });
 
+app.use('/api/register', router);
 
 app.listen(process.env.PORT || 3000, async () => {
   try {
@@ -22,5 +23,5 @@ app.listen(process.env.PORT || 3000, async () => {
   } catch (error) {
     console.log(error);
   }
-//   console.log(`port is running ${process.env.PORT}`);
+  //   console.log(`port is running ${process.env.PORT}`);
 });
