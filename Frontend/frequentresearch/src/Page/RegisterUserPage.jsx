@@ -1,11 +1,11 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import { HiChevronLeft } from "react-icons/hi";
+
 import { Box, Text } from "@chakra-ui/react";
-import DealerSignupFormBox from "./Dealer";
+
 
 import { Link } from "react-router-dom";
-export default function DealerSignup() {
+import RegisterUser from "../components/RegisterUser";
+export default function RegisterUserPage() {
   return (
     <>
       
@@ -14,7 +14,7 @@ export default function DealerSignup() {
         <Box display={"grid"} gridTemplateColumns={"1fr 1fr"}>
           <Box minH="80vh" p="0px 100px">
             <Box minH="80vh">
-              <DealerSignupFormBox />
+              <RegisterUser />
             </Box>
           </Box>
 

@@ -16,7 +16,7 @@ import {
   Select,
 } from "@chakra-ui/react";
 
-export default function DealerSignupFormBox() {
+export default function RegisterUser() {
   const [countries, setCountries] = useState([]);
   const [states, setStates] = useState([]);
   const [cities, setCities] = useState([]);
