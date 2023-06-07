@@ -1,25 +1,17 @@
-// const express = require('express');
-// const { body } = require('express-validator');
-// const registrationController= require('../controller/registration.controller');
-
-// const registrationRoutes = express.Router();
-// Define the registration route
-// registrationRoutes.post('/',registrationController.register
-// );
-//   [
-//     body('email').isEmail().withMessage('Invalid email format'), // Validation for email field
-//     // Add more validation rules for other fields if needed
-//   ],
-
-// module.exports =registrationRoutes;
-
 const express = require("express");
 const { check, validationResult } = require("express-validator");
 const Registration = require("../model/regsiter.model");
 
 const router = express.Router();
 
-
+router.get('/user/all', async (req, res) => {
+  try {
+    const users = await Registration.find();
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+});
 
 router.post(
   "/",

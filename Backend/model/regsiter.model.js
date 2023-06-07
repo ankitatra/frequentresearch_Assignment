@@ -9,11 +9,12 @@ const registrationSchema = new mongoose.Schema(
     city: String,
     gender: String,
     dateOfBirth: Date,
+    age:Number
   },
-//   {
-//     versionKey: false,
-//     timestamps: true,
-//   }
+  {
+    versionKey: false,
+    timestamps: true,
+  }
 );
 
 const Registration = mongoose.model("Data", registrationSchema);
