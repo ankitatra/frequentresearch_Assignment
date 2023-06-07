@@ -54,7 +54,7 @@
 <br/>
 
 <div align="center">
-  <img width="80%" alt="Home page" src="![image](https://github.com/ankitatra/frequentresearch_Assignment/assets/61157473/0cae733a-56b5-4aaa-8d33-0993f0950a49)
+  <img width="80%" alt="Home page" src="https://github.com/ankitatra/frequentresearch_Assignment/assets/61157473/0cae733a-56b5-4aaa-8d33-0993f0950a49
 "/>
 </div>
 <br/>
@@ -67,7 +67,7 @@
 <table align="center">
   <tr>
     <td>
-      <img width="80%" src="![image](https://github.com/ankitatra/frequentresearch_Assignment/assets/61157473/10126070-125d-43a5-8142-5da2ae628805)
+      <img width="80%" src="https://github.com/ankitatra/frequentresearch_Assignment/assets/61157473/10126070-125d-43a5-8142-5da2ae628805
 " alt="User Page">
     </td>
   </tr>
