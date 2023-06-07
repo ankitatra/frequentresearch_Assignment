@@ -1,7 +1,7 @@
 import "./App.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import AllRoutes from "./Allroutes/Allroutes";
+import AllRoutes from "./AllRoutes/Allroutes";
 
 function App() {
   return (
